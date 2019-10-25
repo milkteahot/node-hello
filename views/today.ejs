@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Today I learned</title>
+    <link rel="stylesheet" href="/css/master.css">
+  </head>
+  <body>
+    <h1>Today
+      <% if(day){ %>
+        <span class="Monday"><%= day %>!</span> 
+      <% } else { %>
+        <span class="stranger">Sunday!</span>
+      <% } %>
+    </h1>
+  </body>
+</html>
